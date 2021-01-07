@@ -14,3 +14,19 @@ $(document).ready(function(){
     });
 
 });
+
+
+
+// Modo alternatico con fadeIn&Out
+
+/* $(document).ready(function(){
+    // Il click viene fatto su i perchè altrimenti su un qualsiasi tag a si aprirebbe il menù;
+    $('.header-right a i').click(function(){
+        $('.hamburger-menu').fadeIn(800);
+    });
+
+    $('.hamburger-menu a i').click(function(){
+        $('.hamburger-menu').fadeOut(800);
+    });
+
+}); */
