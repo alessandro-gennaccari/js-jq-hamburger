@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('.hamburger-menu').show();
     });
 
-    $('.hamburger-menu a i').click(function(){
+    $('.hamburger-menu a.close i').click(function(){
         $('.hamburger-menu').hide();
     });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
         $('.hamburger-menu').fadeIn(800);
     });
 
-    $('.hamburger-menu a i').click(function(){
+    $('.hamburger-menu a.close i').click(function(){
         $('.hamburger-menu').fadeOut(800);
     });
 
