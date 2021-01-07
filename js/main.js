@@ -30,3 +30,19 @@ $(document).ready(function(){
     });
 
 }); */
+
+
+
+// Modo alternatico con .addClass&.removeClass
+
+/* $(document).ready(function(){
+    // Il click viene fatto su i perchè altrimenti su un qualsiasi tag a si aprirebbe il menù;
+    $('.header-right a i').click(function(){
+        $('.hamburger-menu').addClass('active');
+    });
+
+    $('.hamburger-menu a.close i').click(function(){
+        $('.hamburger-menu').removeClass('active')
+    });
+
+}); */
